@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: streamscloud-Eventdetect-chl
+  host: streamscloud-Eventdetect-chl
+  disk_quota: 1024M
+  services:
+  - Streaming Analytics-pw
